@@ -1,0 +1,9 @@
+﻿column,dtype,non_null_count
+Date/Time,str,8784
+Temp_C,float64,8784
+Dew Point Temp_C,float64,8784
+Rel Hum_%,int64,8784
+Wind Speed_km/h,int64,8784
+Visibility_km,float64,8784
+Press_kPa,float64,8784
+Weather,str,8784

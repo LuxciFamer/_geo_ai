@@ -1,0 +1,8 @@
+实验三：使用线性回归进行气温预测
+数据文件: F:\desktop\geo_ai\part1\Weather_Data.csv
+训练样本数: 7027
+测试样本数: 1757
+
+评估指标:
+train: MAE=0.5485, RMSE=0.7474, R2=0.9960
+test: MAE=0.6166, RMSE=0.7365, R2=0.9895

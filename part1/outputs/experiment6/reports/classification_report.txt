@@ -1,0 +1,16 @@
+实验6：基于PyTorch的逻辑回归降水预测
+
+分类报告:
+              precision    recall  f1-score   support
+
+     No Rain       0.92      0.81      0.86     22064
+        Rain       0.53      0.77      0.63      6375
+
+    accuracy                           0.80     28439
+   macro avg       0.73      0.79      0.75     28439
+weighted avg       0.84      0.80      0.81     28439
+
+
+测试集指标:
+dataset  accuracy  precision   recall       f1  roc_auc     loss
+   test  0.797391   0.533384 0.768157 0.629596 0.873224 0.691391

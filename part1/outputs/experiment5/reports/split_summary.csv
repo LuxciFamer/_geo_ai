@@ -1,0 +1,8 @@
+﻿item,value
+train_size,113754
+test_size,28439
+feature_dim,125
+class_0_count,110316
+class_1_count,31877
+train_batches,445
+test_batches,112

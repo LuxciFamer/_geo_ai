@@ -1,0 +1,64 @@
+{
+  "data_path": "F:\\desktop\\geo_ai\\part1\\weatherAUS.csv",
+  "train_size": 113754,
+  "test_size": 28439,
+  "feature_dim": 125,
+  "class_distribution": {
+    "0": 110316,
+    "1": 31877
+  },
+  "preprocessor": {
+    "force_int_remainder_cols": "deprecated",
+    "n_jobs": null,
+    "remainder": "drop",
+    "sparse_threshold": 0.3,
+    "transformer_weights": null,
+    "transformers": [
+      [
+        "num",
+        "Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),\n                ('scaler', StandardScaler())])",
+        [
+          "MinTemp",
+          "MaxTemp",
+          "Rainfall",
+          "Evaporation",
+          "Sunshine",
+          "WindGustSpeed",
+          "WindSpeed9am",
+          "WindSpeed3pm",
+          "Humidity9am",
+          "Humidity3pm",
+          "Pressure9am",
+          "Pressure3pm",
+          "Cloud9am",
+          "Cloud3pm",
+          "Temp9am",
+          "Temp3pm",
+          "Year",
+          "Month",
+          "Day",
+          "Weekday",
+          "DayOfYear",
+          "IsWeekend",
+          "Month_sin",
+          "Month_cos",
+          "DayOfYear_sin",
+          "DayOfYear_cos"
+        ]
+      ],
+      [
+        "cat",
+        "Pipeline(steps=[('imputer', SimpleImputer(strategy='most_frequent')),\n                ('onehot',\n                 OneHotEncoder(handle_unknown='ignore', sparse_output=False))])",
+        [
+          "Location",
+          "WindGustDir",
+          "WindDir9am",
+          "WindDir3pm",
+          "RainToday"
+        ]
+      ]
+    ],
+    "verbose": false,
+    "verbose_feature_names_out": false
+  }
+}

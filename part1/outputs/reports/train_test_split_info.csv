@@ -1,0 +1,6 @@
+﻿item,value
+X_shape,"(8784, 14)"
+X_train_shape,"(7027, 14)"
+X_test_shape,"(1757, 14)"
+y_class_count,17
+split_mode,stratified
